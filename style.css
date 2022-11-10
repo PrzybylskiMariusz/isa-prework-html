@@ -1,12 +1,12 @@
 body {
-	font-family: "Inter", sans-serif;
-	font-weight: 300;
+	font-family: Arial;
 	background-color: aliceblue;
 	padding: 40px 0;
 }
 
 h1 {
 	font-size: 36px;
+	margin-bottom: 10px;
 }
 
 h2 {
@@ -25,25 +25,29 @@ span {
 	color: lightslategray;
 }
 
-section,
-header {
-	padding: 10px 60px 20px 60px;
+.container {
 	background-color: white;
 	width: 960px;
 	margin: 0 auto;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+section,
+header {
+	padding: 20px 60px;
 }
 
 header {
 	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	padding-top: 60px;
 }
 
 header ul {
 	list-style: none;
+	padding: 0;
 }
 
-header li {
+li {
 	margin-bottom: 15px;
 }
 
@@ -63,6 +67,7 @@ header li {
 .profile-picture {
 	width: 180px;
 	height: 180px;
+	margin-right: 15px;
 }
 
 .hobbies {
@@ -96,6 +101,7 @@ header li {
 	display: inline-block;
 	margin-top: 20px;
 	transition: background-color 0.5s, color 0.5s;
+	box-shadow: 0 0 20px lightslategray;
 }
 
 .cv-download-link:hover,
