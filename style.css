@@ -1,21 +1,31 @@
 body {
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
+	font-family: "Inter", sans-serif;
+	font-weight: 300;
+	background-color: aliceblue;
+	padding: 40px 0;
 }
 
 h1 {
-    font-size: 36px;
+	font-size: 36px;
 }
 
 h2 {
-    font-size: 28px;
+	font-size: 28px;
 }
 
 span {
-    color: lightslategray;
+	color: lightslategray;
 }
 
 img {
-    width: 150px;
-    height: 150px;
+	width: 150px;
+	height: 150px;
+}
+
+section,
+header {
+	padding: 10px 60px 20px 60px;
+	background-color: white;
+	width: 960px;
+	margin: 0 auto;
 }
